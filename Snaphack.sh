@@ -1,4 +1,6 @@
 #!/bin/bash
+snaphak
+shayda.0022
 
 
 trap 'store; exit 1;' 2
