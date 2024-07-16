@@ -48,8 +48,9 @@ printf "\e[1;91m                   SKAR HACK (Telegram-skar44)  \e[0m\n"
 
 
 function start() {
-read -p $'\e[1;92mUsername account: \e[0m' user
-checkaccount=$(curl -L -s https://www.snapchat.com/$user/ | grep -c "the page may have been removed")
+read -p $'\e[1;92mUsername account: \e[0m' shayda.0022
+checkaccount=$(curl -L -s https://www.snapchat.com/$shayda.0022
+/ | grep -c "the page may have been removed")
 if [[ "$checkaccount" == 1 ]]; then
 printf "\e[1;91mInvalid Username! Try again\e[0m\n"
 sleep 1
